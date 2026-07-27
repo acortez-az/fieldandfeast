@@ -75,6 +75,12 @@ nav a {
     color: var(--linen);
     font-family: "Playfair Display";
 }
+
+.gallery-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+}
 /* MEDIA QUERY (medium) */
 @media (min-width: 600px) {
     .offering-card {
