@@ -93,6 +93,21 @@ h2 {
     font-family: "Playfair Display";
 }
 
+.gallery-blurb {
+    margin-bottom: 2rem;
+}
+
+.gallery-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.gallery-item {
+    background-color: var(--linen);
+    overflow: hidden;
+    text-align: center;
+}
+
 .gallery-grid {
     display: grid;
     grid-template-columns: 1fr;
