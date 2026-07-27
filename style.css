@@ -20,12 +20,19 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-h1, h2, h3 {
-    color: var(--midnight-blue);
+header {
+    text-align: center;
 }
 
-a {
-    color: var(--midnight-blue);
+.heading {
+    background-color: var(--midnight-blue);
+    color: var(--soft-white);
+    padding: 2.5rem 1rem;
+    font-family: Playful Display;
+}
+
+.logo {
+    max-width: 140px;
 }
 
 .main-nav {
