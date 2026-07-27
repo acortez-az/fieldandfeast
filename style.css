@@ -86,11 +86,38 @@ h2 {
     border-radius: 8px;
 }
 
-.offering-card h3 {
-    font-size: 1.35rem;
-    margin-bottom: 0.5rem;
-    color: var(--linen);
-    font-family: "Playfair Display";
+.offerings-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+}
+
+.card {
+    padding: 1.5rem;
+    border-radius: 8px;
+}
+
+.card-green {
+    background-color: var(--olive-green);
+    color: var(--soft-white);
+}
+
+.card h3 {
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+
+.card p {
+    font-size: 0.95rem;
+}
+
+.card ul {
+    margin: 1rem 0 1rem 1.25rem;
+    font-size: 0.95rem;
+}
+
+.card li {
+    margin-bottom: 2rem;
 }
 
 .gallery-blurb {
@@ -105,6 +132,7 @@ h2 {
 .gallery-item {
     background-color: var(--linen);
     overflow: hidden;
+    border-radius: 8px;
     text-align: center;
 }
 
