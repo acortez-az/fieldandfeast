@@ -28,22 +28,38 @@ header {
     background-color: var(--midnight-blue);
     color: var(--soft-white);
     padding: 2.5rem 1rem;
-    font-family: Playful Display;
+    font-family: "Playfair Display";
+}
+
+.heading h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+.heading .tagline {
+    font-style: italic;
+    color: var(--soft-white);
+    font-size: 0.8rem
 }
 
 .logo {
     max-width: 140px;
 }
 
-.main-nav {
+nav {
     background-color: var(--champagne-gold);
+    padding: 0.75rem;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
 }
 
-.main-nav a {
+nav a {
     text-decoration: none;
-    color: var(--midnight-blue);
-    font-weight: 700;
-    font-size: 1rem;
+    color: var(--dark-charcoal);
+    font-weight: bold;
+    font-size: 1.1rem;
+    font-family: "Playfair Display";
 }
 
 .offering-card {
@@ -57,7 +73,7 @@ header {
     font-size: 1.35rem;
     margin-bottom: 0.5rem;
     color: var(--linen);
-    font-family: playfair display;
+    font-family: "Playfair Display";
 }
 /* MEDIA QUERY (medium) */
 /* MEDIA QUERY (large) */
