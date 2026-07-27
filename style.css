@@ -62,28 +62,18 @@ nav a {
     font-family: "Playfair Display";
 }
 
+main {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 2rem 1.5rem;
+    font-family: 'Playfair display';
+}
+
 h2 {
     font-size: 2rem;
     color: var(--midnight-blue);
     font-weight: bold;
     font-family: 'playfair display';
-}
-
-.offerings {
-    display: grid;
-    grid-template-columns: 1fr;
-}
-
-.card h3 {
-    font-size: 1.5rem;
-    font-weight: bold;
-}
-
-.offering-card {
-    background-color: var(--olive-green);
-    color: var(--linen);
-    padding: 1.5rem;
-    border-radius: 8px;
 }
 
 .offerings-grid {
