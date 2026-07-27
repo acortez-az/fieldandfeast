@@ -71,14 +71,15 @@ main {
     max-width: 1000px;
     margin: 0 auto;
     padding: 2rem 1.5rem;
-    font-family: 'Playfair display';
+    font-family: 'Playfair Display';
 }
 
 h2 {
     font-size: 2rem;
     color: var(--midnight-blue);
     font-weight: bold;
-    font-family: 'playfair display';
+    font-family: 'Playfair Display';
+    margin-bottom: 1rem;
 }
 
 .offerings-grid {
@@ -114,7 +115,7 @@ h2 {
 }
 
 .card li {
-    margin-bottom: 2rem;
+    margin-bottom: 0.5rem;
 }
 
 .gallery-blurb {
@@ -162,7 +163,8 @@ h2 {
     border-radius: 5px;
     font-weight: bold;
     text-align: center;
-    font-family: 'playfair display';
+    padding: 0.75rem 1.5rem;
+    font-family: 'Playfair Display';
 }
 
 .site-footer {
@@ -176,7 +178,7 @@ h2 {
 .site-footer a {
     color: var(--champagne-gold);
      text-decoration: none;
-     font-family: 'playfair display';
+     font-family: 'Playfair Display';
 }
 
 .social-links {
@@ -185,6 +187,7 @@ h2 {
     justify-content: center;
     gap: 1.5rem;
 }
+
 /* MEDIA QUERY (medium) */
 @media (min-width: 600px) {
     .offerings-grid {
