@@ -98,6 +98,27 @@ h2 {
     grid-template-columns: 1fr;
     gap: 1.5rem;
 }
+
+.gallery-item figcaption {
+    font-style: italic;
+    color: var(--dark-charcoal);
+}
+
+.gallery-button-container {
+    text-align: center;
+}
+
+.btn-green {
+    display: block;
+    width: 100%;
+    background-color: var(--olive-green);
+    color: var(--soft-white);
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    text-align: center;
+    font-family: 'playfair display';
+}
 /* MEDIA QUERY (medium) */
 @media (min-width: 600px) {
     .offering-card {
