@@ -201,12 +201,6 @@ h2 {
     gap: 1.5rem;
     }
 
-    .btn-green {
-        display: inline-block;
-        width: auto;
-        min-width: 300px;
-    }
-
 
 /* MEDIA QUERY LARGE */
 @media (min-width: 900px) {
