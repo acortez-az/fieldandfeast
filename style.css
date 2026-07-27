@@ -5,15 +5,53 @@
 /* CSS RESET */
 /* ROOT VARIABLES */
 :root {
-    midnight-blue: #1F2A44;
-    olive-green: #76885B;
-    champagne-gold: #E5C185;
-    linen: #F8F4EC;
-    dark-charcoal: #2B2B2B;
-    soft-white: #FAF9F6;
+    --midnight-blue: #1F2A44;
+    --olive-green: #76885B;
+    --champagne-gold: #E5C185;
+    --linen: #F8F4EC;
+    --dark-charcoal: #2B2B2B;
+    --soft-white: #FAF9F6;
 
 }
 /* GLOBAL STYLES (mobile first/small) */
+body {
+    background-color: var(--soft-white);
+    color: var(--dark-charcoal);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1, h2, h3 {
+    color: var(--midnight-blue);
+}
+
+a {
+    color: var(--midnight-blue);
+}
+
+.main-nav {
+    background-color: var(--champagne-gold);
+}
+
+.main-nav a {
+    text-decoration: none;
+    color: var(--midnight-blue);
+    font-weight: 700;
+    font-size: 1rem;
+}
+
+.offering-card {
+    background-color: var(--olive-green);
+    color: var(--linen);
+    padding: 1.5rem;
+    border-radius: 8px;
+}
+
+.offering-card h3 {
+    font-size: 1.35rem;
+    margin-bottom: 0.5rem;
+    color: var(--linen);
+    font-family: playfair display;
+}
 /* MEDIA QUERY (medium) */
 /* MEDIA QUERY (large) */
 /* MEDIA QUERY (xl) */
